@@ -1,7 +1,7 @@
 # VulnBank– API penetration test Report 
 
 **Target Application**: vulnbank  
-**Test environment:** Vulnbank running on local host via Docker, Testing done with Postman and Burpsuite professional  
+**Test environment:** Vulnbank running on local host via Docker, Testing done with Postman and Burp Suite Professional  
 **Test type:** Dynamic analysis and penetration testing of the endpoints in the environment
 
 ---
