@@ -1,7 +1,5 @@
-# Zero health penetration testing 
-
-**Name:** Obonguko Mfoniso Ubon  
-ID: CSF/API/25B/1056  
+# Zero Health penetration testing 
+  
 Date: Feb 9, 2026
 
 ## Executive summary
