@@ -1,37 +1,33 @@
 API GATEWAY SECURITY 
 
-**Prepared by:** Obonguko, Mfoniso Ubon 
-
-**ID**: CSF/API/25B/1056 
-
 **Target application**: AWS API gateway 
 
 **Date:** 19/1/2026 
 
 **Executive summary:** 
 
-In this lab i created an API gateway using AWS and enforced authentication, authorization and other security configurations. 
+In this lab, I created an API Gateway using AWS and enforced authentication, authorization and other security configurations. 
 
 **Tools used:** 
 
 Postman 
 
-AWS: lambda( to create the backend server) 
+AWS: Lambda ( to create the backend server) 
 
-Cognito( for identity access and management) 
+Cognito (for identity and access management) 
 
 Api gateway( to create the api gateway) 
 
 **Methodology** 
 
-I signed up on AWS and verified my account. 
+I signed up for AWS and verified my account. 
 
 **Creating the backend using Lambda** 
 
-● I searched for lambda on my aws console 
+● I searched for Lambda on my AWS console 
 
-![][image1]● On lambda i Created a function  
-![][image2]● I authored the function form scratch and named it class 
+![][image1]● On Lambda, I created a function  
+![][image2]● I authored the function from scratch and named it class 
 
 ![][image3]● Here is an Overview of the successfully created function  
 ![][image4]● I tweaked the code a bit and deployed 
