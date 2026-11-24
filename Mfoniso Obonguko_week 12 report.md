@@ -1,0 +1,60 @@
+# WEEK 12 learning summary: API product management, securing NLP and LLM, and the future of AI API-powered technology 
+
+Name: Mfoniso Obonguko  
+ID: CSF/API/25B/1056  
+Date:28th February, 2025
+
+# **Securing NLP and LLM**
+
+This focused program provided practical guidance on building and operating AI-powered APIs safely, specifically those exposing language model capabilities.
+
+The course started by introducing the overall security landscape, highlighting key concerns and best practices. It emphasized the importance of embedding security throughout the development life cycle rather than treating it as a final checklist. We also examined real-world breaches involving LLMs to understand how design choices, weak controls, and misuse of AI features can lead to real incidents.
+
+I learned how APIs are used to expose LLM and NLP features to applications, showing how these integrations bring language capabilities into systems that did not originally include them. The course reinforced core API security fundamentals and protocols, including HTTPS and TLS, emphasizing encryption both in transit and at rest, and why these are essential for AI data flows.
+
+The program then focused on LLM-specific security concerns, including model misuse, data exposure, and potential abuse scenarios, along with best practices to mitigate them. The final module walked through practical implementation, covering how to apply security measures across design, coding, testing, deployment, and ongoing operation so that AI and API security are fully integrated rather than separate considerations.
+
+## ---
+
+# **API Product Management**
+
+It was a compact, expert-led program that really took me from the basics of APIs to real-world security and governance. It started with the fundamentals of what an API is, how it allows software systems to communicate, and how APIs power scalable and interconnected digital solutions. The course then explored the role of the API product manager, highlighting how this position connects technical teams and business strategy while focusing on governance, reusability, and leveraging APIs as strategic assets.
+
+The course also covered API design and management principles, including thinking API-first, structuring and versioning APIs responsibly, and building user-friendly interfaces. Documentation was a key focus, covering what good documentation looks like, its essential components, and how to create guides that are clear for both developers and non-technical stakeholders.
+
+Finally, the course introduced cybersecurity and penetration testing for APIs. I learned about common cyber threats, attack methods, vulnerability exploitation, and important compliance frameworks like ISO 27001 and GDPR. This reinforced how security must be integrated into API product thinking from the start.
+
+---
+
+# **AI-Powered APIs and the Future of Technology**
+
+AI-powered APIs are quietly reshaping how software works and how it can be attacked.
+
+A few years ago, APIs handled simple tasks like creating users or fetching orders. Today, they can connect AI models to live data, internal tools, and automated workflows. That means they can read customer messages, summarize contracts, generate code, or trigger actions, dramatically expanding the risk surface. Security can’t be an afterthought anymore.
+
+## **Security Needs to Start Early**
+
+Traditionally, security came at the end: build the feature, test it, then review. With AI APIs, that approach fails.
+
+Developers can spin up endpoints in hours, creating “shadow APIs” that move sensitive data without proper monitoring. Reactive fixes like firewalls rarely scale.
+
+The smarter approach is to ask early questions. What data can the model access? How long is it stored? How will misuse be monitored? What happens if someone abuses the endpoint? These are both product and security questions.
+
+## **AI APIs Are Different**
+
+Traditional APIs are predictable. Input goes in, output comes out. AI APIs are probabilistic. The same input can produce different outputs, introducing new risks.
+
+Prompt injection is one example, where attackers manipulate instructions in plain language to trick models into exposing data. Other risks include AI responses being served to the wrong user, sensitive data appearing in outputs, or attempts to replicate proprietary logic. These are design and logic issues, not classic vulnerabilities.
+
+## **Product Managers Play a Security Role**
+
+AI changes responsibility. API product managers must define safe usage boundaries, asking questions about authentication, user permissions, abuse detection, and when to pause a model. They translate risks into product decisions, influencing safety from day one.
+
+AI-powered APIs will impact your work in cybersecurity, whether you expect it or not. You’ll still need to know traditional API risks like IDOR and broken object-level authorization, but also prompt injection, data leaks via AI outputs, cross-tenant exposure, and over-privileged AI integrations.
+
+Your role goes beyond finding bugs. You’ll help design guardrails, review API requirements before code is written, integrate AI-aware testing into CI/CD pipelines, and explain why unusual prompt issues matter. You’ll also think in layered attack paths, combining multiple risks to understand the bigger picture.
+
+AI APIs aren’t just technical upgrades. They’re a new layer of software architecture. They move fast, connect intelligence to action, and require security to grow alongside innovation.
+
+For me and anyone who's into cybersecurity, this is an opportunity to help shape safe AI integrations from the start. It’s a challenge, but also a chance to be on the frontlines of modern security.
+
