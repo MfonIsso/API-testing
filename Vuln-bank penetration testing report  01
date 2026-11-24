@@ -1,12 +1,11 @@
   
 Vuln-bank penetration testing report   
-Prepared by: obonguko, mfoniso ubon  
-ID: CSF/API/25B/1056  
+
 Target application: vuln-bank  
 Testing window: 8 December
 
-Executive summary  
-In this lab, i gained hands on experience exploiting API vulnerabilities on a Vulnerable banking application. I was able to find vulnerabilities such as broken object level authorization (BOLA), broken object property level authorization (BOPLA), and broken authentication. 
+**Executive summary** 
+In this lab, I gained hands-on experience exploiting API vulnerabilities on a Vulnerable banking application. I was able to find vulnerabilities such as broken object-level authorization (BOLA), broken object property-level authorization (BOPLA), and broken authentication. 
 
 **Methodology:**  
 This testing used a gray box technique
@@ -16,13 +15,13 @@ Burp Suite (intercepting and testing)
 Docker (hosting the application)
 
 **Key findings**  
-Broken object property level authentication : when adding a user to the account i noticed there was mass assignment. Many sensitive fields were disclosed even when creating a simple user. I added a user to the system and added more fields to the user (is\_admin and Balance) and the user was created successfully ![][image1]  
+Broken object property authentication: when adding a user to the account, I noticed there was mass assignment. Many sensitive fields were disclosed even when creating a simple user. I added a user to the system and added more fields to the user (is\_admin and Balance), and the user was created successfully![][image1]  
 ![][image2]  
 ![][image3]
 
 Broken authentication: for broken authentication,
 
-1.  I was able to reuse my old token to log back into the users account
+1.  I was able to reuse my old token to log back into the user's account
 
 ![][image4]
 
