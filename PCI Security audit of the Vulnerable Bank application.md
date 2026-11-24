@@ -1,14 +1,11 @@
 PCI Security audit of the Vulnerable Bank application 
 
-**NAME:** Obonguko, Mfoniso Ubon 
-
-**ID**: CSF/API/25B/1056 
 
 **DATE:** 26.1.2026 
 
 **Executive summary** 
 
-The Payment Card Industry Data Security Standard defines security requirements to protect environments where payment account data is stored, processed, or transmitted. The PCI DSS isnt just a compliance checklist, it is a security standard that directly shapes API’s. In this lab, I explored the importance of PCI DSS to API’s by auditing the Vulnerable Bank application to see if it complies with the PCI standard. In this audit, I reviewed the endpoints and discovered some features that don't follow the requirements of PCI DSS and offered recommendations. 
+The Payment Card Industry Data Security Standard defines security requirements to protect environments where payment account data is stored, processed, or transmitted. The PCI DSS isn't just a compliance checklist; it is a security standard that directly shapes API’s. In this lab, I explored the importance of PCI DSS to API’s by auditing the Vulnerable Bank application to see if it complies with the PCI standard. In this audit, I reviewed the endpoints and discovered some features that don't follow the requirements of PCI DSS and offered recommendations. 
 
 **Target application:** 
 
