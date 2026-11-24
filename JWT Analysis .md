@@ -1,11 +1,9 @@
-JWT Analysis  
-Prepared by: obonguko, mfoniso ubon  
-ID: CSF/API/25B/1056  
+ 
 Target : JWT:  
 Testing window: 24-1 December
 
-Executive summary   
-In this lab i analyzed a JWT and was able to find vulnerabilities ranging from expired tokes, unsigned token, exposure of sensitive information etc. 
+**Executive summary**   
+In this lab, I analyzed a JWT and was able to find vulnerabilities ranging from expired tokes, unsigned token, exposure of sensitive information, etc. 
 
 **Methodology:**  
 This testing used a gray box technique
