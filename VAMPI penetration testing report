@@ -1,16 +1,12 @@
 VAMPI penetration testing report 
 
-Prepared by: obonguko, mfoniso ubon 
-
-ID: CSF/API/25B/1056 
-
 Target application: VAMPI 
 
 Testing window: 17-23 November 
 
 Executive summary: 
 
-APIs form the present-day bridges that allow software systems to communicate with each other, share data, and perform actions seamlessly. Today, over 80% of web applications rely on APIs to fetch data, enable user interaction, integrate services, and deliver dynamic real-time functionality. With great power comes great responsibility— Lots of security breaches have happened in major organizations like LinkedIn in 2021, which impacted over 700 million users, and T-Mobile (2023), which affected 40 million users, was caused by API vulnerabilities. Seeing the important role and impact APIs have in modern web applications, it is important for us as security personnel to be able to identify vulnerabilities associated with Application Programming Interfaces, how the vulnerabilities can be spotted, and how to mitigate each vulnerability. In this lab, I carried out a penetration test on a vulnerable API, VAmPI, identifying vulnerabilities like broken object-level authentication, Broken Authentication, Broken object property-level authorization, and recommending solutions for the vulnerabilities found. 
+APIs are the bridges that let software systems communicate, share data, and perform actions seamlessly. Today, over 80% of web applications rely on APIs to fetch data, enable user interaction, integrate services, and deliver dynamic real-time functionality. With great power comes great responsibility— Lots of security breaches have happened in major organizations like LinkedIn in 2021, which impacted over 700 million users, and T-Mobile (2023), which affected 40 million users, was caused by API vulnerabilities. Given the important role and impact APIs have in modern web applications, it is important for us as security personnel to identify API vulnerabilities, how to spot them, and how to mitigate each one. In this lab, I carried out a penetration test on a vulnerable API, VAmPI, identifying vulnerabilities like broken object-level authentication, Broken Authentication, Broken Object Property-Level Authorization, and recommending solutions for the vulnerabilities found. 
 
 **Methodology:** 
 
@@ -20,9 +16,9 @@ This testing used a gray box technique
 
 Burp Suite (intercepting and testing) 
 
-APIscanner (scan for endpoints) 
+API Scanner (scan for endpoints) 
 
-VSCODE ( yaml file inspection) 
+VS Code (YAML file inspection) 
 
 Postman (manual api testing) 
 
@@ -32,7 +28,7 @@ Postman (manual api testing)
 
 ● Turned on the proxy for Burp Suite and Postman 
 
-● Imported the file to Postman 
+● Imported the file into Postman 
 
 Key findings 
 
@@ -41,7 +37,7 @@ Key findings
 Broken Object-Level Authorization, often called BOLA, is one of the most dangerous weaknesses found in modern APIs. APIs act as the highways that shuttle sensitive data between systems, users, and services, and when authorization checks are weak, those highways can easily turn into unrestricted access roads. BOLA happens when an API does not  
 properly verify whether the person making a request actually owns the data they are trying to access. An attacker can simply change an ID in the request, such as a user ID or name, and suddenly retrieve information that belongs to someone else. This flaw has been responsible for several large-scale data breaches because it gives attackers a direct line into private user information with very little effort. 
 
-In these screenshots below, I’ve simply demonstrated how broken object-level authentication can be exploited 
+In the screenshots below, I’ve simply demonstrated how broken object-level authentication can be exploited 
 
 ![][image1]Changing the user's password and sending it to Burp  
 ![][image2]Forwarding the request to the server using Burp 
